@@ -160,6 +160,10 @@ body {
   background-color: #323C38;
 }
 
+.light-grey-background {
+  background-color: #F7F7F7;
+}
+
 #white-tile h2 {
 	padding-top: 3%;
 }
@@ -183,6 +187,10 @@ body {
 	width: 300px;
 }
 
+#white-tile {
+  vertical-align: middle;
+}
+
 #grey-tile h2 {
 	color: #4da76e;
 }
@@ -201,6 +209,11 @@ body {
 
 #grey-tile h4 {
 	font-size: 20px;
+}
+
+#grey-tile  {
+  vertical-align: middle;
+
 }
 
 .pics {
@@ -224,7 +237,9 @@ body {
 
 
 .employee {
-	font-size: 15px;
+	font-size: 5px;
+  text-align: center;
+  color: #4da76e;
 }
 
 .parallax-container {
@@ -261,4 +276,26 @@ body {
 
 .button:hover {
   border: 1px solid white;
+}
+
+.goal-area {
+	font-size: 15px;
+}
+
+a.email {
+  text-decoration: none;
+  color: white;
+}
+
+.featured-content {
+  padding: 42px;
+}
+
+#portfolio-background {
+  background-image: url('lilydrip.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
