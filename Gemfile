@@ -60,4 +60,5 @@ gem 'materialize-sass'
 gem "gritter", "1.2.0"
 gem 'jquery-turbolinks', '~> 2.1'
 gem "administrate"
+gem 'rails_amp'
 gem 'haml-rails', '~> 1.0'
