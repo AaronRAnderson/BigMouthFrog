@@ -62,3 +62,4 @@ gem 'jquery-turbolinks', '~> 2.1'
 gem "administrate"
 gem 'rails_amp'
 gem 'haml-rails', '~> 1.0'
+gem 'jquery-turbolinks', '~> 2.1'

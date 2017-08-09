@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>BigMouthFrog</title>
+    <title><%= yield(:title) %></title>
+
+    <link rel="stylesheet" href="/css/bootstrap.css">
+
+    <meta charset="UTF-8">
+
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="keywords" content="Websites,Design,Dev Shop,Development,Ruby on Rails,Wordpress,Business">
+
+    <meta name="description" content="<%= yield(:description) %>">
+
+
     <%= csrf_meta_tags %>
     <%= favicon_link_tag 'froglogo.jpg' %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>

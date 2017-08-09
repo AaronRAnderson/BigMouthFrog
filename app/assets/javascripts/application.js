@@ -12,13 +12,14 @@
 //
 //= require jquery
 //= require jquery.turbolinks
+//= require jquery_ujs
 //= require materialize
 //= require materialize-sprockets
 //= require rails-ujs
 //= require cable
 //= require gritter
-//= require turbolinks
 //= require_tree .
+//= require turbolinks
 
 
 $(document).ready(function() {
