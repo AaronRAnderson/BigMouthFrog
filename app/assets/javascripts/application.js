@@ -18,8 +18,8 @@
 //= require rails-ujs
 //= require cable
 //= require gritter
-//= require_tree .
 //= require turbolinks
+//= require_tree .
 
 
 $(document).ready(function() {
