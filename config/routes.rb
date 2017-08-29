@@ -17,7 +17,7 @@ Rails.application.routes.draw do
   get '/featured-clients', to: 'pages#portfolio'
 
   resources :leads
-  get '/contact', to: 'leads#new'
+  # get '/contact', to: 'leads#new'
 
 
   mount ActionCable.server => '/cable'

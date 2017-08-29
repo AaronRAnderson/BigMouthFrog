@@ -31,8 +31,8 @@ body {
 .mission-words {
 	text-align: center;
   color: white;
-  text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
 	margin-top: 30px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .mission-words h1 {
@@ -40,7 +40,8 @@ body {
 }
 
 .mission-words h5 {
-	font-family: 'Bellefair', serif;
+	font-family: 'Allerta', sans-serif;
+  font-weight: 500;
 	margin-top: 3%;
 	margin-bottom: 0px;
 	padding-bottom: 5%;
@@ -67,12 +68,12 @@ body {
 	font-family: 'Bellefair', serif;
 }
 
-#lilly-row {
+.lilly-row {
 	text-align: center;
 	padding: 25px
 }
 
-#lilly-row div {
+.lilly-row div {
 	height: 170px;
 	width: 170px;
 	display: inline-block;
@@ -83,7 +84,7 @@ body {
 	border-radius: 10px;
 }
 
-#lilly-row img {
+.lilly-row img {
 	padding: 5%;
 	max-height: 170px;
 	max-width: 170px;
