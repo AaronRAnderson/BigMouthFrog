@@ -3,3 +3,11 @@
 .medium {
   padding-top: 1%;
 }
+#portfolio-background {
+  background-image: url('lilydrip.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
