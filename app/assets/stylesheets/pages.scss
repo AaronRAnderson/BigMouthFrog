@@ -25,6 +25,7 @@ body {
 #drop-pic {
 	width: 100%;
 	height: 650px;
+  background-size: cover;
 }
 
 
@@ -128,11 +129,13 @@ body {
 }
 
 #about-title {
-	color: grey;
+	color: #4da76e;
 	font-family: courier;
 	text-align: center;
 	font-size: 1.5em;
-	padding-top: 15px;
+	padding-top: 10px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 
@@ -289,5 +292,117 @@ a.email {
 }
 
 .featured-content {
+  margin-left: 60rem;
+  text-align: center;
   padding: 42px;
+}
+
+.green-background {
+  background-color: #4da76e;
+  color: grey;
+}
+.about-background {
+  background-image: image-url('Green_water.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.flower-bar {
+  background-image: image-url('lily1.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -20px;
+  padding-bottom: 10px;
+}
+
+
+
+.lily-bar {
+  background-image: image-url('lilypad.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -20px;
+  padding-bottom: 10px;
+
+}
+
+.frog-bar {
+  background-image: image-url('frog_and_lily.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -20px;
+  padding-bottom: 10px;
+}
+
+.lily2-bar {
+  background-image: image-url('lily_pond.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -20px;
+  padding-bottom: 10px;
+}
+
+.frogpad-bar {
+  background-image: image-url('lilly_pads2.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -20px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.about-spacer {
+  margin-top: -20px;
+  padding-bottom: 0px;
+}
+
+.last {
+  margin-top: -20px;
+}
+
+.sara-row {
+  padding-top: 100px;
+}
+.dan-row {
+  padding-top: 100px;
+}
+.jared-row {
+  padding-top: 50px;
+}
+.aaron-row {
+  padding-top: 50px;
+}
+
+.collapsible-header {
+  background-color: #323C38 !important;
+  border-color: #4da76e !important;
+}
+.collapsible-body {
+  border-color: #4da76e !important;
+}
+
+.about-header {
+  margin-bottom: 0px !important;
+  border-bottom: 1px solid;
+  border-color: #4da76e;
+
+}
+
+.name-bar {
+  text-align: center;
+  margin: 20px;
+  width: 100%;
+
 }
