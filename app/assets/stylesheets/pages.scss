@@ -422,10 +422,32 @@ a.email {
 
 .happy-frog {
   vertical-align: middle;
-  height: 80%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
 }
 
 .hidden {
   display: none;
+}
+
+#happy-frog-nav {
+  margin-left: 10px;
+}
+
+.brand-logo {
+  padding-left: 10px;
+}
+
+.phone {
+  font-size: 2rem;
+}
+
+.nav-phone{
+  margin-top: 20px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.white-text {
+  color: white !important;
 }
